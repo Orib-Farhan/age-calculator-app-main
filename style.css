@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+* {
+    font-family: "Poppins",sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ebebeb;
+}
+
+.container {
+    height: 40%;
+    min-height: 450px;
+    width: 50%;
+    min-width: 350px;
+    background-color: white;
+    border-radius: 1rem 1rem 7rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.birthday-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+
+}
+
+.date {
+    font-size: small;
+    color: rgb(96, 96, 96);
+}
+
+.inputs {
+    display: flex;
+    flex-direction:  column;
+    padding-left: 10%;   
+}
+
+.inp {
+    width: 90%;
+    height: 40px;
+    border-radius: 4px;
+    font-size: large;
+    padding-left: 10%;
+}
+
+
+
+
+
+
+.icon-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} 
+
+hr {
+    width: 75%;
+    height: 1px;
+    background-color: rgb(96, 96, 96);
+    border: 0px;
+} 
+
+.icon {
+    background-color: hsl(228, 45%, 44%);
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outputs {
+    font-size: 3.5rem;
+    padding-left: 10%;
+    font-weight: 900;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hole{
+    color: hsl(228, 45%, 44%);  
+    padding-right: 10px;
+}
+
+
