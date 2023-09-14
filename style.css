@@ -56,7 +56,6 @@ body {
 
 
 
-
 .icon-line {
     display: flex;
     flex-direction: row;
@@ -72,13 +71,19 @@ hr {
 } 
 
 .icon {
-    background-color: hsl(228, 45%, 44%);
+    background-color: hsl(259, 100%, 65%);
     width: 65px;
     height: 65px;
     border-radius: 50%;
+    border: 0ch;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+}
+
+.icon:hover {
+    background-color: hsl(228, 45%, 44%);
 }
 
 .outputs {
@@ -94,8 +99,25 @@ hr {
 }
 
 .hole{
-    color: hsl(228, 45%, 44%);  
+    color: hsl(259, 100%, 65%);  
     padding-right: 10px;
 }
+
+
+
+.error-day {
+    font-size: 0.6rem;
+    color:  hsl(0, 100%, 67%);
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
 
 
